@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>دعوت‌ نامه جشن تولد هیبا</title>
+  <title>دعوت‌نامه جشن ششم هیبا 💛</title>
   <style>
     body {
       margin: 0;
@@ -14,12 +14,14 @@
       align-items: center;
       min-height: 100vh;
       direction: rtl;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      font-family: "Vazirmatn", Tahoma, sans-serif;
     }
     .wrapper {
-      max-width: 480px;
+      max-width: 520px;
       width: 100%;
-      padding: 12px;
+      padding: 16px;
+      text-align: center;
+      animation: fadeIn 1.3s ease;
     }
     img {
       width: 100%;
@@ -27,12 +29,26 @@
       display: block;
       border-radius: 18px;
       box-shadow: 0 10px 25px rgba(0,0,0,.13);
+      transition: transform 0.5s ease;
+    }
+    img:hover {
+      transform: scale(1.03);
+    }
+    footer {
+      margin-top: 16px;
+      color: #444;
+      font-size: 14px;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
     }
   </style>
 </head>
 <body>
   <div class="wrapper">
-    <img src="invite.jpg" alt="دعوت‌نامه جشن تولد هیبا">
+    <img src="کارت دعوت.jpg" alt="دعوت‌نامه جشن ششم هیبا">
+    <footer>💛 ساخته شده با عشق توسط تیم هیبا 💛</footer>
   </div>
 </body>
 </html>
